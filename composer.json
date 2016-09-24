@@ -1,0 +1,31 @@
+{
+  "name": "giacomofurlan/browser-game-time-machine",
+  "type": "library",
+  "description": "A set of common time-based browser games' logics",
+  "keywords": ["browser", "game", "browsergame", "time", "calculation", "algorithm"],
+  "homepage": "https://github.com/elegos",
+  "license": "GNU GPL v3",
+  "authors": [
+    {
+      "name": "Giacomo Furlan",
+      "email": "giacomo@giacomofurlan.name",
+      "homepage": "http://giacomofurlan.name",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GiacomoFurlan\\TimeMachine\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.0.4",
+    "phpunit/phpunit": "5.5.5"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/elegos/BrowserGame-TimeMachine.git"
+    }
+  ]
+}
