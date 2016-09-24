@@ -19,7 +19,7 @@ class TimeMachine implements TimeMachineInterface
      * @param DateTime $till
      * @return float
      */
-    public function calculateFactoryProduction(FactoryInterface $factory, DateTime $till)
+    public function calculateFactoryProduction(FactoryInterface $factory, DateTime $till) : float
     {
         $nextLevel = $factory->getNextLevelUpgradeFinish();
         $lastCalculation = $factory->getLastTimeCalculated();

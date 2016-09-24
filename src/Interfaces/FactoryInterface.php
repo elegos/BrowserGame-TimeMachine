@@ -16,14 +16,14 @@ interface FactoryInterface
      * Get the actual factory's production level
      * @return int
      */
-    public function getLevel();
+    public function getLevel() : int;
 
     /**
      * Get the hourly production rate
      * @param int $level
      * @return float
      */
-    public function getHourlyProduction($level);
+    public function getHourlyProduction($level) : float;
 
     /**
      * Get the date of when the factory will upgrade to the next production level
@@ -35,5 +35,5 @@ interface FactoryInterface
      * Get the last time the production of this factory was calculated
      * @return DateTime
      */
-    public function getLastTimeCalculated();
+    public function getLastTimeCalculated() : DateTime;
 }

@@ -12,5 +12,5 @@ interface TimeMachineInterface
      * @param DateTime         $till
      * @return float
      */
-    public function calculateFactoryProduction(FactoryInterface $factory, DateTime $till);
+    public function calculateFactoryProduction(FactoryInterface $factory, DateTime $till) : float;
 }
